@@ -1,0 +1,43 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.header{
+    min-height: 100px;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header h2{
+   margin-top: 50px;
+}
+
+.content{
+    min-height: 200px;
+}
+
+#alltask{ width: 320px;
+    margin: 0 auto;
+    
+}
+
+#alltask a{
+    text-decoration-line: none;
+    color: black;
+    line-height: 2;
+    
+}
+
+.footer{
+    min-height: 100px;
+   width: 230px;
+    margin: 0 auto;
+}
+
+.footer h2{ 
+     margin-top: 80px;
+     text-align: center;
+}
+

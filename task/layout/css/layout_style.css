@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    background-color: black;
+    min-height: 100px;
+    
+}
+.content_wrapper{}
+.sidebar{
+    width: 25%;
+    background-color: green;
+    height: 550px;
+    float: left;
+}
+.content{
+    width: 75%;
+    background-color: red;
+    height: 550px;
+    float: right;
+}
+.footer{
+    width: 100&;
+    background-color: orange;
+    min-height: 150px;
+    clear: both;
+}

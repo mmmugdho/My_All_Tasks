@@ -1,0 +1,992 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(../image/body_back.jpg)
+}
+
+
+.main {
+    width:1080px;
+    min-height: 750px;
+    margin: 0 auto;
+}
+
+
+.header {
+    min-height: 150px;
+    position: relative;
+    overflow: hidden;
+    background: black;
+}
+
+#logo_image {
+    float: left;
+}
+
+
+.menubar {
+    list-style: none;
+    position: absolute;
+    margin-left: 147px;
+}
+.menubar ul{
+   list-style: none;
+    
+}
+.menubar ul li{
+    float: left;
+    padding: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #333333;
+    border: 1px solid black;
+    font-size: 16px;
+    width: 113px;
+    
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.menubar ul li a:hover{
+    
+}
+.search {
+    margin-top: 86px;
+    float: right;
+    padding: 3px 3px;
+    width: 220px;
+    margin-right: 9px;
+}
+#searchbutton{
+    color: white;
+    background-color: #004B7B;
+    float: right;
+}
+
+.form_header {
+    margin-top: 82px;
+    color: white;
+    background-color:blue;
+    
+}
+
+
+
+
+
+.bottom_header {
+    min-height: 33px;
+    position: absolute;
+    margin-top: 113px;
+    background-color: #333333;
+    width: 100%;
+
+}
+.bottom_header ul{
+   list-style: none;
+    color: white;
+}
+.bottom_header ul li{
+    float: left;
+    border-right: 1px solid white;
+    font-size: 18px;
+    padding: 5px 10px;
+   
+}
+.bottom_header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.share_send {
+    position: absolute;
+    margin-top: 116px;
+    right: 0px;
+}
+.share_send ul{
+    list-style: none;
+}
+.share_send ul li{
+    float: left;
+    padding: 5px 2px;
+
+}
+.share_send ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.Slider{
+    width: 100%;
+    height: 405px;
+    position: relative;
+    margin-top: 15px;
+    border: 4px solid #666666
+}
+
+.Slider_header{
+    color: white;
+    border-bottom: 2px solid white;
+    position: absolute;
+    
+}
+.Slider_header p{
+    
+    float: left;
+    min-height: 10px;
+}
+.Slider_header img{
+    float: left;
+}
+
+#moon_image{
+    width: 440px;
+    position: absolute;
+    margin-top: 26px;
+    
+}
+
+
+#moon_image img{
+    width:100%;
+    
+}
+#headline{
+    width: 100%;
+    min-height: 77px;
+    background-image: url(../image/headline_shed_image.png);
+    color: white;
+    font-weight: bold;
+    padding: 1px;
+    margin-top: 0px;
+    position: absolute;
+  
+}
+#headline h1{
+    
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+#moon_image p{
+    width:100%;
+    color: white;
+}
+.Slider_data{
+    width: 330px;
+    margin-left: 445px;
+    margin-top: 24px;
+    position: absolute;
+    
+}
+.Slider_Content{
+    float: left;
+    border: 1px solid gray;
+    background-color:#333333;
+    padding: 7px;
+    margin-bottom: 2px;
+}
+
+.Slider_Content h4{
+    color: white;
+    font-size: 14px;
+    
+}
+.Slider_Content p{
+    color: skyblue;
+    font-size: 12px;
+      
+}
+.morestories {
+    border: 2px solid #666666;
+    background: #333333;
+    padding: 4px;;
+    color: white;
+    position: absolute;
+    margin-left:4px;;
+    width: 311px;
+   height: 35px;
+    margin-top:316px
+}
+.morestories input{
+    background: #333333;
+    color: white;
+    margin-left: 180px;
+    margin-top: 4px;
+    padding: 4px 10px;
+    font-size: 14px;
+    border: 2px solid #666666;
+}
+
+.Slider_image{
+    width: 299px;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    background-color: #333333;
+}
+.image_left{
+   float: left;
+    height: 150px;
+    width: 125px;
+    margin-left: 25px
+}
+.image_right{
+    height: 150px;
+    float: right;
+     width: 146px;
+   
+}
+
+.nasaimages {
+    background-color: #003366;
+    width: 35%;
+    position: relative;
+    float: left;
+    height: 475px;
+    margin-top: 15px;
+}
+.nasaimages h2{
+    font-size: 20px;
+    color: white;
+}
+.nasaimages ul{
+    list-style: none;
+}
+.nasaimages ul li{
+    float: left;
+    padding: 2px 4px;
+    background-color: #0A69B1;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    
+}
+.nasaimages ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nasaimages img{
+    margin-left: 4px;
+}
+
+.nasaimages h3{
+    float: left;
+    color: white;
+}
+#sign_image {
+    float: right;
+    margin-right: 4px;
+    
+}
+.nasaimages p{
+    margin-left:0px; 
+    color: white;
+    padding: 3px;
+    float: right;
+}
+
+.nasaimages input{
+    color: white;
+    background-color: #555E61;
+    font-size: 14px;
+    padding: 5px 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 230px;
+    border: none;
+    cursor: pointer;  
+}
+
+.Nasa_multimedia{
+    background-color: #003366;
+    width: 35%;
+    position: relative;
+    float: left;
+    height: 475px;
+    margin-top: 15px;
+    margin-left: 14px;
+}
+.Nasa_multimedia h1{
+    font-size: 20px;
+    color: white;
+}
+.box{
+    height: 107px;
+    width: 100%;
+    border: 0.5px solid skyblue;
+    margin-bottom: 2px;
+}
+.box h3{
+    position: absolute;
+    float: right;
+    margin-left: 141px;
+    margin-top: -81px;
+    color: white;
+}
+.box p{
+    position: absolute;
+    margin-left: 144px;
+    margin-top: -52px;
+    color: #B4E7ED;
+    font-size: 13px;
+}
+#indicator{
+    margin-bottom: 31px;
+    
+}
+#round_sign{
+    position: absolute;
+    margin-top: 82px;
+    margin-left: -92px;
+}
+.box a{
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 80px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+
+.content_right {
+    width: 28%;
+    height: 459px;
+    float: right;  
+}
+
+.twitter { 
+    position: relative;
+    background: #666666;
+    height: 275px;
+    margin-top: 15px;
+}
+
+.twitter h1{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+#twitterhead{
+    width: 101%;
+    margin-top: -5px;
+     margin-left: -3px;
+}
+#twitterbottom{
+    width: 103%;
+    margin-top:210px;
+    margin-left: -5px;
+}
+.nasaemails {
+    height: 150px;
+    margin-top: 32px;
+    background: #666666;
+    border-radius: 8px;
+}
+
+.nasaemails h2{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 15px;
+    width: 290px;
+    border-top: 2px solid black;
+}
+.emailentry{
+    position: absolute;
+    margin-top: 60px;
+    border: 1px solid black;
+    padding: 8px 14px;
+    
+}
+.emailentry input[type="text"]{
+    padding: 3px 2px;
+    width: 170px;
+}
+.emailentry input[type="button"]{
+     background-color: #004B7B;
+    padding: 4px;
+    width: 70px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 18px;
+}
+.emailentry p{
+    color: white;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.nasaemails img{
+    width: 310px;
+    margin-top: 118px;
+    margin-left: -5px;
+}
+.blogs_updates {
+    margin-top: 15px;
+    background-color: #003366;
+    width: 35%;
+    position: relative;
+    float: left;
+    height: 285px;
+    padding: 2px;
+}
+.blogs_updates h1{
+    font-size: 20px;
+    color: white;
+    padding: 7px 12px;;
+}
+.blogs_updates img{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.blog_news{
+    border: 1px solid black;
+    padding: 5px;
+    color: #ccccff;
+    min-height: 50px;
+}
+.blog_news span{
+    color: white;
+}
+.blogs_updates input{
+    color: white;
+    background-color: #555E61;
+    font-size: 14px;
+    padding: 4px 8px;
+    margin-top: 25px;
+    margin-left: 229px;
+    border: none;
+    cursor: pointer;  
+}
+
+.calendar {
+    margin-top: 15px;
+    background-color: #003366;
+    width: 35%;
+    position: relative;
+    padding: 2px;
+    float: left;
+    height: 285px;
+    margin-left: 10px;
+    
+}
+
+.calendar h2{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    
+}
+.calendar ul{
+    list-style: none;
+}
+
+.month{
+   width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 8px 20px;
+}
+.month ul{
+    list-style: none;   
+}
+.month ul li{
+    float: left;
+    color: white;
+    font-size: 22px;   
+}
+.month ul li span{
+    margin-left: 85px
+}
+.month .prev{
+    
+    float:left;
+}
+.month .next{
+    float:right;
+}
+
+.weekdays{
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.weekdays li{
+    float: left;
+    color: white;
+    padding: 2px 15px;
+    margin-left: 1.5px;
+}
+.days{
+    padding: 10px 0;
+    background: #003366;
+    margin: 4px 1px;
+    width: 100%;
+}
+
+.days li{
+    list-style-type: none;
+    display: inline-block;
+    width: 14.3%;
+    line-height: 20px;
+    text-align: center;
+    margin: 0px -3px;
+    font-size: 12px;
+    color: white;
+    border: 1px solid #006699;
+}
+.blank{
+    color: #003366;
+}
+.calendar input{
+     color: white;
+    background-color: #555E61;
+    font-size: 14px;
+    padding: 5px 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 198px;
+    border: none;
+    cursor: pointer;  
+}
+
+.interest{
+   float: right;
+    width:28%;
+    right: 0px;
+    margin-top: -7px;
+    min-height: 600px;
+   
+}
+.interest h2{
+    background-color:#666666 ;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.interest_layer1{
+     background-color:#666666 ;
+    list-style: none;
+    color: white;
+    margin-left: 2px;
+    
+}
+.interest_layer1 li{
+    float: left;
+    padding: 3px 10px;
+    font-weight: lighter;
+    font-size: 16px;
+    background: #3C3C3C;
+    border-right: 2px solid black;
+    height: 20px;
+}
+.interest_layer1 li:hover{
+    background: #666666;
+}
+.interest_layer2{
+    list-style: none;
+}
+.interest_layer2 li{
+    float: left;
+    color: #A8CBE8;
+    font-weight: bold;
+    padding: 4px 10px;
+     background-color:#666666 ;
+}
+.interest_layer2 li:hover{
+    color: white;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.interest_content{
+    margin-top: 55px;
+    overflow-y: scroll;
+    height: 325px;
+    background-color:#003366;
+}
+.imagedata{
+    background-color: #003366;
+    margin-top: 5px;
+    float: left;
+}
+.image_content img{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.image_content p{
+    color: white;
+    padding-left: 108px;
+    margin-top: -69px;
+    margin-left: 20px;
+    font-size: 14px;
+    float: left;
+}
+.interest .interestbar{
+    width: 100%   
+}
+#career{
+    position: absolute;
+    border: none;
+    margin: 7px 50px;
+    color: white;
+}
+#centers{
+   position: absolute;
+    border: none;
+    margin: 7px 50px;
+    color: white;
+}
+#offices{
+    position: absolute;
+    border: none;
+    margin: 7px 30px;
+    color: white;
+}
+
+.Explore_more{
+    height: 228px;
+    width: 382px;
+    background-color: #003366;
+    position: absolute;
+    margin-top: 810px;
+    float: left;
+    
+}
+.Explore_more h3{
+    color: white;
+    margin-left: 10px;
+    
+}
+.Explore_Left_div{
+    float: left;
+    
+}
+.Explore_Right_div{
+    
+}
+.Explore_Left_div img{
+    margin-left: 10px;
+    
+}
+.Explore_Left_div a{
+    margin-left: 10px;
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    
+}
+
+.Explore_Right_div img{
+    margin-left: 10px;
+}
+.Explore_Right_div a{
+    margin-left: -161px;
+    color: white;
+    font-size: small;
+    position: absolute;
+    margin-top: 166px;
+    text-decoration: none;
+}
+.Explore_Right_div h4{
+    color: white;
+    position: absolute;
+    margin-left: 185px;
+    
+}
+.NASA_Leadership{
+    width: 382px;
+    height: 228px;
+    background-color: #003366;
+    position: absolute;
+    margin-top: 810px;
+    margin-left: 391px;
+    
+}
+.NASA_Leadership h3{
+    color: white;
+    margin-left: 10px;
+    
+}
+.upper_div{
+    
+    
+}
+.upper_div img{
+    float: left;
+    
+}
+.upper_div h4{
+    color: #A8CBE8;
+    margin-left: 120px;
+    font-size: small;
+        
+    
+}
+.upper_div a{
+    float: left;
+    margin-right: 50px;
+    color: white;
+    font-size: small;
+    margin-top: -17px;
+    margin-left: 14px;
+    text-decoration: none;
+}
+.lower_div{
+    float: right;
+    width: 100%;
+    margin-top: 10px;
+}
+.lower_div img{
+    
+}
+.lower_div h4{
+    float: right;
+    margin-top: 3px;
+    color: #A8CBE8;
+    width: 264px;
+    font-size: small;
+}
+.lower_div a{
+    float: left;
+    margin-right: 50px;
+    color: white;
+    margin-top: -59px;
+    margin-left: 120px;
+    font-size: small;
+    text-decoration: none;
+}
+.Explore_more_extension1{
+    height: 231px;
+    width: 186px;
+    background-color: #003366;
+    position: absolute;
+    margin-top: 1049px;
+    float: left;
+    
+    
+}
+.Explore_more_extension1 img{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.Explore_more_extension1 h4{
+    color: white;
+    margin-left: 10px;
+    
+}
+.Explore_more_extension1 p{
+    font-size: small;
+    color: white;
+    position: absolute;
+    margin-left: 10px;
+    
+}
+.Explore_more_extension1 a{
+    position: absolute;
+    margin-top: 32px;
+    font-size: small;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+.Explore_more_extension2{
+    height: 231px;
+    width: 186px;
+    background-color: #003366;
+    position: absolute;
+    margin-top: 1049px;
+    margin-left: 196px;
+}
+.Explore_more_extension2 img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Explore_more_extension2 h4{
+    color: white;
+    margin-left: 10px;
+    
+}
+.Explore_more_extension2 p{
+    font-size: small;
+    color: white;
+    position: absolute;
+    margin-left: 10px;
+    
+}
+.Explore_more_extension2 a{
+    position: absolute;
+    margin-top: 45px;
+    font-size: small;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+.Explore_more_extension3{
+    height: 231px;
+    width: 186px;
+    background-color: #003366;
+    position: absolute;
+    margin-top: 1049px;
+    margin-left: 392px;
+    
+    
+}
+.Explore_more_extension3 img{
+     margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.Explore_more_extension3 h4{
+    color: white;
+    margin-left: 10px;
+    
+}
+.Explore_more_extension3 a{
+    position: absolute;
+    margin-top: 7px;
+    font-size: small;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+.Explore_more_extension4{
+    height: 231px;
+    width: 186px;
+    background-color: #003366;
+    position: absolute;
+    margin-top: 1049px;
+    margin-left: 585px;
+}
+.Explore_more_extension4 img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Explore_more_extension4 h4{
+    color: white;
+    margin-left: 10px;
+    
+}
+.Explore_more_extension4 p{
+    font-size: small;
+    color: white;
+    position: absolute;
+    margin-left: 10px;
+    
+}
+.Explore_more_extension4 a{
+    position: absolute;
+    margin-top: 45px;
+    font-size: small;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    float: left;
+    margin-top: 125px;
+    color: white;
+
+}
+.logo_image{
+    position: absolute;
+    height: 155px;
+    width: 147px;
+    background-color: #333333;
+    
+}
+.logo_image img{
+    margin-top: 
+}
+.column_1{
+    float: right;
+    height: 155px;
+    width: 222px;
+    background-color: #333333;
+    position: absolute;
+    margin-left: 150px;
+    color: white;
+}
+.column_1 p{
+    font-size: small;
+    text-decoration: none;
+    margin-top: 11px;
+    line-height: .1;
+    margin-left: 10px;
+}
+.column_2{
+     
+    height: 155px;
+    width: 249px;
+    background-color: #333333;
+    position: absolute;
+    margin-left: 377px;
+    color: white;
+    
+    
+}
+.column_2 a{
+    font-size: small;
+    color: white;
+    text-decoration:none;
+}
+.column_3{
+     
+    height: 155px;
+    width: 214px;
+    background-color: #333333;
+    position: absolute;
+    margin-left: 629px;
+    color: white;
+    
+}
+.column_3 a{
+font-size: small;
+color: white;
+text-decoration:none;
+
+}
+.column_4{
+    
+    height: 155px;
+    width: 233px;
+    background-color: #333333;
+    position: absolute;
+    margin-left: 846px;
+    color: white;
+}
+.column_4 a{
+    font-size: small;
+    color: white;
+    text-decoration:none;
+}

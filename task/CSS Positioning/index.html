@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <title> CSS Positioning</title>
+    <style>
+        
+        .Parent{
+            background-color: yellowgreen;
+            width: 70%;
+            margin: 0 auto;
+            position: relative;
+            min-height: 850px;
+            
+            
+            
+        }
+        .Child1{
+            background-color:  red;
+            left: 37.5%;
+            top: 36%
+            
+        }
+        .Child2{
+            background-color: green;
+            right: 0;
+        }
+        .Child3{
+            background-color: orange;
+            left: 0;
+            bottom: 0;
+            
+        }
+        .Child4{
+            background-color: blue;
+            right: 0;
+            bottom: 0;
+           
+        }
+        .box{
+            min-height: 200px;
+            width: 25%;
+            border: 1px solid black;
+            position: absolute;            
+
+        }
+        </style>   
+    </head>
+        
+        <body>
+        <div class="Parent">
+           <div class="Child1 box"></div>
+           <div class="Child2 box"></div>
+           <div class="Child3 box"></div>
+           <div class="Child4 box"></div>
+            
+            
+        </div>    
+            
+            
+            
+        </body>
+        
+        
+    
+    
+    
+</html>

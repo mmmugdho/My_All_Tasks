@@ -1,0 +1,60 @@
+#firstName{
+    width: 25%;
+    height: 15px;
+    border-radius: 3px;
+    border: 2px solid deepskyblue;
+    padding: 4px 7px;
+    color: red;
+    transition: 1s;
+}
+#firstName:hover{
+    border: 2px solid red;
+    
+}
+#firstName:focus{
+    height: 25px;
+    
+}
+::-webkit-input-placeholder{
+    color: lightgreen;
+    font-weight: bold;
+} 
+::-moz-placeholder{
+    color: lightgreen;
+    font-weight: bold;
+}
+::-ms-input-placeholder{
+    color: lightgreen;
+    font-weight: bold;
+}
+::-o-placeholder{
+    color: lightgreen;
+    font-weight: bold;
+}
+:-webkit-input-placeholder{
+    color: lightgreen;
+    font-weight: bold;
+}
+input[type="submit"]{
+    width: 250px;
+    height: 40px; 
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    
+}
+input[type="submit"]:hover{
+    width: 250px;
+    height: 40px; 
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    transition: 1.5s;
+    
+}
+
