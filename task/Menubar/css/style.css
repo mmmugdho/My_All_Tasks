@@ -1,0 +1,46 @@
+.menu_bar{
+    background-color: black;
+    min-height: 50px;
+    width: 683px;
+    margin: 0px auto;
+    border-radius: 20px;
+    
+}
+.menu_bar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.menu_bar ul li{
+    float: left;
+    position: relative;
+}
+.menu_bar ul li a{
+   color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    padding: 16px 35px;
+    transition: 1s;
+    transform: scale(1.1)
+}
+.menu_bar ul li a:hover{
+    background-color: orange;
+    
+}
+.menu_bar ul li ul{
+    position: absolute;
+    background-color:black;
+}
+.menu_bar ul li ul li{
+    clear: both;
+}
+.menu_bar ul li ul li a{
+    width: 150px;
+    padding: 18px 20px;
+}
+.menu_bar ul li ul li a:hover{
+    
+}
