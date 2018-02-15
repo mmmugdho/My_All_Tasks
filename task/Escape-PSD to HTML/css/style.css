@@ -1,0 +1,542 @@
+*{margin: 0;
+  padding: 0;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+
+@font-face{
+    font-family:"BrandonGrotesque-Bold";
+    src:url(../fonts/BrandonGrotesque-Bold.otf);
+    
+}
+
+@font-face{
+    font-family:"BrandonGrotesque-Light";
+    src:url(../fonts/BrandonGrotesque-Light.otf);
+    
+}
+
+@font-face{
+    font-family:"BrandonGrotesque-Regular";
+    src:url(../fonts/BrandonGrotesque-Regular.otf);
+    
+}
+
+
+header{
+    overflow: hidden;
+    background-image: url(../images/header_bg.jpg);
+    min-height: 600px;
+    background-size: cover;
+}
+.overlay{
+    height: 600px;
+    background: rgba(0,0,0,0.3);
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.header_top {
+    
+}
+
+.logo {
+    color: white;
+    width: 165px;
+    padding: 22px 0px;
+    display: inline-flex;
+    padding-left: 15px;
+}
+.logo span{
+     font-weight: bold;
+    font-size:28px;
+    text-transform: uppercase;
+     padding-left: 10px;
+}
+
+.menu {
+    width: 73%;
+    padding: 15px 0px;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    font-family: BrandonGrotesque-Regular;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+    font-size: 23px;
+    font-weight: 100px;
+}
+.menu ul li a:hover{
+    
+}
+
+.header_bottom {
+    clear: both;
+}
+
+.header_caption {
+    text-align: center;
+    padding-top: 70px;
+}
+.header_caption p{
+    font-family: BrandonGrotesque-Regular;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 20px;
+}
+.header_caption h1{
+    font-family: BrandonGrotesque-Bold;
+    color: white;
+    font-size: 85px;
+    font-weight: 100;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+.header_caption button{
+    font-family: BrandonGrotesque-Regular;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background: transparent;
+    border 2px solid white;
+    padding: 20px 75px;
+    margin-top:20px;
+    
+}
+
+#development {
+     overflow: hidden;
+}
+    
+
+.webdevelopment {
+    overflow: hidden;
+    margin-top: 50px;
+    min-height: 300px;
+}
+
+.development_text {
+    width: 65%;
+  
+}
+.development_text h1{
+    font-family:BrandonGrotesque-Regular;
+    color: #222222;
+    font-size: 55px;
+    font-weight: 100;   
+}
+.development_text h1 strong{
+    font-family: BrandonGrotesque-Bold;
+}
+
+.development_text p{
+    font-family:BrandonGrotesque-Regular;
+    color: #77777;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.development_icon {
+    width: 35%;
+}
+
+.branding {
+    background-color: #fafafa;
+    min-height: 350px;
+}
+.branding_content{
+    padding-top: 50px;
+}
+.branding_icon {
+    width: 35%;
+}
+
+.branding_text {
+    width: 65%;
+}
+.branding_text h1{
+    font-family:BrandonGrotesque-Regular;
+     color: #222222;
+    font-size: 55px;
+    font-weight: 100;
+    
+}
+.branding_text h1 strong{
+    font-family:BrandonGrotesque-Bold;
+}
+.branding_text p{
+    font-family:BrandonGrotesque-Regular;
+     color: #77777;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-right: 60px;
+}
+
+#features {
+     overflow: hidden;
+    padding-top: 50px;
+    min-height: 570px;
+    
+}
+.single_features {
+    width: 50%;
+    min-height: 120px;
+    margin-top: 50px;
+}
+
+.features_icon {
+    background-color: black;
+    width: 72px;
+    height: 71px;
+    border-radius: 50%;
+    float: left;
+}
+.features_icon img{
+    padding: 12px 18px;
+}
+.features_description {
+    padding-left: 100px;
+    width: 66%
+}
+.features_description h1{
+    font-family:BrandonGrotesque-Bold;
+    font-size: 27px;
+}
+.features_description p{
+    font-family:BrandonGrotesque-Regular;
+    font-size: 19px;
+    color: #929292;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+#clients {
+     overflow: hidden;
+    min-height: 880px;
+    background: #fafafa;
+}
+
+.clients_title {
+    width: 450px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+.clients_title h1{
+    font-family:BrandonGrotesque-Light;
+    font-size: 60px;
+}
+.clients_title strong{
+    font-family:BrandonGrotesque-Bold;
+}
+.clients_title p{
+    font-family:BrandonGrotesque-Regular;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #929292;
+}
+
+.clients_data {
+    min-height: 200px;
+   padding: 50px;
+}
+
+.client_image {
+    width: 235px;
+    height: 235px;
+    background: black;
+    border-radius: 50%;
+}
+
+.client_about {
+    height: 170px;
+    width: 60%;
+    background: white;
+    margin-right: 100px;
+    margin-top: 35px;
+}
+.client_about p{
+    font-family:BrandonGrotesque-Regular;
+    width: 90%;
+    padding: 0px 28px;
+    padding-top: 20px;
+    color: #929292;
+    font-size: 25px;
+}
+.client_about .client_name{
+    font-family:BrandonGrotesque-Regular;
+    font-size:18px;  
+    padding: 10px 50px;
+    color: #7690c5
+    
+}
+.second_client_about{
+    margin-left: 55px;
+    margin-top: 35px;
+}
+#brands {
+     overflow: hidden;
+    min-height: 200px;
+}
+.single_brand {
+    width: 134px;
+    float: left;
+    padding: 50px 50px;
+}
+
+
+#team {
+     overflow: hidden;
+    min-height: 600px;
+    background: #222222;
+    
+}
+
+.team_title {
+    width: 450px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+.team_title h1{
+    font-family:BrandonGrotesque-Light;
+    font-size: 55px;
+    color: white;
+}
+.team_title strong{
+    font-family:BrandonGrotesque-Bold;
+}
+.team_title p{
+    font-family:BrandonGrotesque-Regular;
+    color: #777777;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+}
+.team_members{
+   padding: 10px;
+   min-height: 375px;
+}
+
+.single_team_member {
+    width: 33%;  
+}
+.member_photo{
+    width: 195px;
+    height: 195px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-left: 126px;
+}
+.member_designation{  
+    width: 208px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.member_designation p{
+    padding-left: 40px;
+    font-family: BrandonGrotesque-Bold;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.member_designation span{
+    font-family: BrandonGrotesque-Regular;
+    color: #adadad;
+    padding-left: 56px;
+    line-height: 2;
+    font-size: 18px;
+}
+.social_icon{
+     width: 60%;
+     margin: 0 auto;
+}
+.single_social_icon{
+    float: left;
+    padding: 10px 10px;
+    border: 2px solid white;
+    width: 30px;
+    height: 28px;
+    margin-left: 8%;
+    margin-top: 9%;
+    border-radius: 70%;
+}
+.single_social_icon img{
+    padding: 8px;
+}
+.team_info {
+    text-align: center;
+    color: #dcdcdc;
+    clear: both;
+    width: 65%;
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 35px 0px;
+}
+.team_info span{
+    line-height: 2;
+}
+
+footer{
+     overflow: hidden;
+    background: #7690c5;
+}
+.footer_top {
+    overflow: hidden;
+}
+
+.contact_info {
+    padding-top: 10%;
+    width: 45%;
+    float: left;
+    
+}
+.contact_info h1{
+    font-family: BrandonGrotesque-light;
+    font-size: 59px;
+    font-weight: 100;
+    line-height: 10px;
+    color: white;
+    padding: 45px 0px;
+}
+.contact_info p{
+    font-family: BrandonGrotesque-Regular;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: white;
+    width: 420px;
+    height: 45px;
+}
+.contact_form {
+    width: 45%;
+    float: right;
+    height: 460px;
+    padding-top: 10%;
+}
+
+.contact_form button{
+    font-family: BrandonGrotesque-Regular;
+    border: none;
+    padding: 8px 30px;
+    background: #99abd0;
+    margin: 8px;
+    text-align: left;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.contact_form input[type=text],input[type=email] {
+    font-family:BrandonGrotesque-Regular;
+    padding: 16px 200px 16px 25px;
+    margin: 8px;
+    text-align: left;
+    border-radius:5px; 
+    color:#bbbbbb;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 100;
+    font-size: 16px
+}
+.contact_form textarea {
+    resize: none;
+    font-family:BrandonGrotesque-Regular;
+    height: 200px;
+    width: 354px; 
+    margin: 8px;
+   text-align: left;
+    padding: 16px 0px 0px 25px;
+      border-radius:5px; 
+    color:#bbbbbb;
+    font-weight: 100;
+    font-size: 16px;
+    overflow: hidden;
+}
+.contact_form input[type=submit] {
+    font-family:BrandonGrotesque-Regular;
+    border: none;
+    padding: 8px 30px;
+    background:#99abd0;
+    margin: 8px;
+    text-align: left;
+    border-radius:5px; 
+    font-weight: bold;
+    color:white;
+}
+.contact_form input[type=submit]:hover {
+    color:#999292;
+    background:white;
+    
+}
+.footer_bottom {
+ font-family:BrandonGrotesque-Regular;
+    border-top: 1px solid #87a0d2;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 0;
+    margin-top: 100px;
+    border-radius:5px; 
+}
+
+
+.info{
+    
+    width: 420px;
+    height: 162px;
+    
+}
+
+.single_info{
+    font-family: BrandonGrotesque-Regular;
+    color: white;
+   
+}
+.box1{
+    
+}
+.box2{
+    
+}
+.box3{
+    padding-top: 15%;
+    margin-left: -128px;
+}
+.box4{
+    padding-top: 8%;
+}
+.box5{
+       padding-top: 23%;
+    margin-left: -128px; 
+}
+.box6{
+    padding-top: 8%;
+    
+}
+
+
+
