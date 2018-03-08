@@ -1,0 +1,125 @@
+@media(max-width:767px){
+   .common_bg{
+    background-color: #9FC5F8; 
+    margin-top: 15px;
+}
+
+.header_height{
+    min-height: 100px;
+}
+
+.item_one{
+    background-color: #CFE2FB; 
+}
+.item_two{
+    background-color: #6FA8DC;
+    margin-top: 15px;
+    height:150px;
+}
+.padding_right_disable{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.brand, .global_nav,.tools {min-height: 70px;
+margin-top: 15px; margin-bottom: 15px;}
+
+.hero_height{
+    min-height: 130px;
+
+}
+.hero_feature,.call_to_action{
+    min-height: 60px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.article_height{
+    min-height: 255px;
+}
+.article_feature, .article_listing{
+    min-height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sidebar_feature{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+
+}
+.sidebar_content{
+    min-height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer_height{
+    margin-top: 5px;
+    min-height: 100px;
+    margin-bottom: 25px;
+}
+}   
+@media(min-width:768px) and (max-width:998px){
+    .common_bg{
+    background-color: #9FC5F8; 
+    margin-top: 15px;
+}
+
+.header_height{
+    min-height: 100px;
+}
+
+.item_one{
+    background-color: #CFE2FB; 
+}
+.item_two{
+    background-color: #6FA8DC;
+    margin-top: 15px;
+    height:150px;
+}
+.padding_right_disable{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.brand, .global_nav,.tools {min-height: 70px;
+margin-top: 15px; margin-bottom: 15px;}
+
+.hero_height{
+    min-height: 150px;
+
+}
+.hero_feature,.call_to_action{
+    min-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.article_height{
+    min-height: 255px;
+}
+.article_feature, .article_listing{
+    min-height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sidebar_feature{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+
+}
+.sidebar_content{
+    min-height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer_height{
+    margin-top: 5px;
+    min-height: 100px;
+    margin-bottom: 25px;
+}
+    
+}
+@media(min-width:992px) and (max-width:1199px){
+   
+}
+@media(min-width:1200px){
+    
+}
