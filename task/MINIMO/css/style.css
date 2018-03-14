@@ -1,0 +1,115 @@
+.img-responsive{
+    width: 100% !important;
+}
+
+.logo h1{
+    padding-top: 15px 0px; 
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #101010;
+    
+}
+.custom_navbar{
+    background: none;
+    border: none;
+}
+.custom_navbar ul li{
+    
+}
+.custom_navbar ul li a{
+    font-family: 'Playfair Display', serif;
+    color: #777777;
+    font-size: 15px !important;
+    font-weight: 200;
+    padding: 35px;
+}
+#padding_right_disable{
+    padding-right: 0px;
+}
+.custom_navbar ul li a:hover{
+    color: #020202 !important;
+    transition: 0.5;
+}
+.paragraph{
+
+}
+.common_title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #b4ad9e;
+     margin-top: 70px;
+    padding: 0px 10px;
+}
+.description{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    padding: 29px 10px;
+}
+.lifestyle{
+    margin-top: 70px;
+}
+.img{
+    padding: 0px 10px;
+}
+.email{
+    background-color: #f0f0f0;
+    height: 286px;
+    padding: 100px 0px;
+    margin-top: 50px;
+}
+.email_form h1{
+     font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #626262;
+}
+.email_form form button{
+    /*border-bottom: 2px solid black;*/
+    background: transparent;
+    border:none;
+    position: absolute;
+    margin-left: -38px;
+
+}
+.email_form form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+     font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    width: 340px;
+    color: #626262;
+    
+}
+.second_lifestyle{
+    margin-top: 100px;
+}
+.load_more{
+    padding-top: 100px;
+}
+.load_more button{
+    background: transparent;
+    border: 1px solid black;
+    height: 60px;
+    width: 160px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #7d7d7d;
+}
+.footer{
+    padding-top: 45px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    height: 100px;
+    margin-top: 100px;
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+.terms_condition ul li a{
+    color: black;
+}
+.logos ul li a{
+    color: black;
+}
