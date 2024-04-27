@@ -1,52 +1,62 @@
-*{
-    margin: 0; 
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
 }
 
-.header{
-    min-height: 100px;
-    width: 350px;
-    margin: 0 auto;
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease-in-out;
 }
 
-.header h2{
-   margin-top: 50px;
-}
-
-.content{
-    min-height: 200px;
-}
-
-#alltask{ width: 320px;
+/* Content styles */
+.content {
+    max-width: 800px;
     margin: 0 auto;
-    
+    padding: 20px;
 }
 
-#alltask a{
-    text-decoration-line: none;
-    color: black;
-    line-height: 2;
-    
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    animation: fadeInUp 1s ease-in-out;
 }
 
-.footer{
-    min-height: 100px;
-   width: 230px;
-    margin: 0 auto;
+/* Animations */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-.footer h2{ 
-     margin-top: 80px;
-     text-align: center;
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
-.em-heart{
-    background-image: url(https://twemoji.maxcdn.com/2/72x72/2764.png);
-    margin-left: 101px;
-   
-}
-.em-point_down{
-}
+
 
  
 
