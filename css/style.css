@@ -89,3 +89,21 @@ body {
   font-size: 24px;
   vertical-align: middle;
 }
+
+.em-heart {
+  display: inline-block;
+  font-size: 24px; /* Adjust the size as needed */
+  animation: rotateAndScale 1s linear infinite; /* Adjust animation duration as needed */
+}
+
+@keyframes rotateAndScale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1) rotateY(3.142rad);
+  }
+}
